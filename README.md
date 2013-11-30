@@ -12,14 +12,13 @@ Each directory should have a path with sub paths:
 '*' represents wild values AKA file only needs to contain that part of the string. It is important to have apostrophes around the values so special characters can be read.
 
 Example configurations:
-<<code yml>>
-SomeProject:
-  files:
-    - 'SomeFileName*'
-  path: 'C:\PathToFolder\'
-ProjectTwo:
-  files
-    - 'ExactFileName'
-    - 'This*and*that'
-  path: 'C:\MyDevEnv\Project\'
-<</code>>
+
+    SomeProject:
+      files:
+        - 'SomeFileName*'
+      path: 'C:\PathToFolder\'
+    ProjectTwo:
+      files
+        - 'ExactFileName'
+        - 'This*and*that'
+      path: 'C:\MyDevEnv\Project\'
