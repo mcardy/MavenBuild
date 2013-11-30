@@ -1,0 +1,17 @@
+# MavenBuild by Minnymin3
+# Each directory should have a path with sub paths:
+# files: A list of files to copy (without extension)
+# path: the path to the directory
+# *s represent wild values AKA file only needs to contain that part of the string
+# It is important to have 's around the values so special characters can be read
+# Here is an example setup:
+#
+# SomeProject:
+#   files:
+#     - 'SomeFileName*'
+#   path: 'C:\PathToFolder\'
+# ProjectTwo:
+#   files
+#     - 'ExactFileName'
+#     - 'This*and*that'
+#   path: 'C:\MyDevEnv\Project\'

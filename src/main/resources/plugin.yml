@@ -1,0 +1,4 @@
+main: net.lordsofcode.mavenbuild.MavenBuild
+name: MavenBuild
+version: ${buildVersion}
+author: minnymin3
